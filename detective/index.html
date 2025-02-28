@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+   
+    <div class="wrapper">
+        <div class="dev">
+            <p class="devdetective">DevDetective</p>
+            <div><p>Light</p><span class="material-symbols-outlined">
+                light_mode
+                </span></div>
+                <div class="searchcontainer">
+                <input type="text" id="input" placeholder="Enter a Github username. . ." class="search" search-name>
+                <div class="error">
+                    <p id="noresult">NO Search results</p>
+                    <button id="btn">Search</button>
+                </div>
+             </div>
+             <!-- profilr container -->
+                <div class="infocontainer" info-container>
+                    <div class="profilecontent">
+                        <div class="profileheader">
+                            <img src="" alt="" id="userimage" loading="lazy">
+                            <div class="profileinfowrapper">
+                                <div class="profilename">
+                                    <h2 id="name"></h2>
+                                 </div>
+                                 <a href="" target="_blank
+                                 " id="username" rel="noopener noreffer"></a>
+
+                            </div>
+                            <p id="date"></p>
+
+                        </div>
+
+                    </div>
+                    <p id="profilebio"></p>
+
+                    <div id="statscontainer">
+                        <p class="statstitle"> </p>
+                        <div class="profilestats">
+                            <p class="statsTitle">Repos</p>
+                            <a id="repos"></a>
+                        </div>
+
+                        <div id="statscontainer">
+                            <p class="statstitle"> </p>
+                            <div class="profilestats">
+                                <p class="statsTitle">Followers</p>
+                                <a id="followers"></a>
+                            </div>
+
+                            <div id="statscontainer">
+                                <p class="statstitle"> </p>
+                                <div class="profilestats">
+                                    <p class="statsTitle">Following</p>
+                                    <a id="following"></a>
+                                </div>
+
+                    </div>
+                    <div class="footer">
+                        <div class="profileinfo">
+                            <div class="bottomicon">
+                                <span class="material-symbols-outlined">
+                                    location_on
+                                    </span>
+                            </div>
+                            <p id="location"></p>
+                        </div>
+
+                        <div class="profileinfo">
+                            <div class="bottomicon">
+                                <span class="material-symbols-outlined">
+                                    link
+                                    </span>
+                            </div>
+                            <p id="website"></p>
+                        </div>
+                        <div class="profileinfo">
+                            <div class="bottomicon">
+                                <span class="material-symbols-outlined">
+                                    raven
+                                    </span>
+                            </div>
+                            <p id="twitter"></p>
+                        </div>
+                        <div class="profileinfo"></div>
+                            <div class="bottomicon">
+                                <span class="material-symbols-outlined">
+                                    apartment
+                                    </span>
+                            </div>
+                            <p id="company"></p>
+                        </div>
+                    </div>
+              
+                </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
